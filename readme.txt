@@ -6,7 +6,7 @@ Please remember:
 
 the Body request should be:
 {
-  "info1": "informationProvided1",
+  "info1": "informationProvided1-MANDATORY",
   "info2": "informationProvided2-Optional",
   "info3": "informationProvided3-Optional"
 }
