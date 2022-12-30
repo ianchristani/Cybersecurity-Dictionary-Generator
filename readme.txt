@@ -1,4 +1,4 @@
-The Dictionay Generator build dictionary based in informations provided (from 1 up to 3) to use in PENTESTS.
+The Dictionay Generator was builded using FastAPI and it builds an password list based in informations provided (from 1 up to 3) to use in PENTESTS.
 Please remember:
 
 1. special characters are already included as options
