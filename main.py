@@ -11,6 +11,14 @@ class Info(BaseModel):
     info2: Optional[str]=None
     info3: Optional[str]=None
 
+@dictgen.get('/')
+def get_password():
+    return {"message": "Welcome to Password Dictionary Generator",
+        "instructions": "please check the endpoint and body request content to use th API",
+        "doc link": "http://52.90.75.139/docs",
+        "endpoint": "http://52.90.75.139/dictgen"
+    }
+
 
 @dictgen.get('/dictgen/')
 def datainp(info: Info)->dict:    
