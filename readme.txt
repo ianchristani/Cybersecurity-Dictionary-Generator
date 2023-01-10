@@ -10,9 +10,3 @@ the Body request should be:
   "info2": "informationProvided2-Optional",
   "info3": "informationProvided3-Optional"
 }
-
-
-It is deployed on AWS
-API: http://52.90.75.139/
-endpoint: http://52.90.75.139/dictgen
-doc: http://52.90.75.139/docs
